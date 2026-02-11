@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "What's up", "How are you"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! Ready to assist you."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care", "Have a good day"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Take care.", "Bye! Come back if you need help."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime! Let me know if you need anything else."]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How do I apply?", "What is the admission process?", "BTech admission requirements", "How to get admission", "Application process"],
+      "responses": ["For BTech admission, you need: 1) 60% in 12th grade with PCM, 2) Valid JEE/entrance score, 3) Online application. Would you like the application link?"]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee structure?", "How much are the fees?", "College fees", "Tuition cost", "Semester fees"],
+      "responses": ["The annual tuition fee is approximately ₹1.5-2 lakhs. Hostel and mess charges are separate. Need a detailed breakdown?"]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses do you offer?", "Available programs", "BTech branches", "Specializations", "What can I study here?"],
+      "responses": ["We offer BTech in: CSE, AI/ML, ECE, Mechanical, Civil. We also have MTech and MBA programs. Which field interests you?"]
+    },
+    {
+      "tag": "placements",
+      "patterns": ["How are the placements?", "Placement statistics", "Companies that recruit", "Average package", "Job opportunities"],
+      "responses": ["Our average package is ₹8-10 LPA. Top recruiters: TCS, Infosys, Wipro, Amazon, Google. 90%+ students get placed. Want placement training details?"]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Do you have hostel facility?", "Accommodation", "Hostel fees", "Where will I stay?", "Room sharing"],
+      "responses": ["Yes, we have separate hostels for boys and girls. 2/3 sharing rooms with WiFi, mess, and gym. Hostel fee: ₹80,000/year. Want to see photos?"]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["Do you offer scholarships?", "Financial aid", "Merit scholarship", "Fee waiver", "Scholarship criteria"],
+      "responses": ["Yes! Merit scholarships: 100% for 90%+ in 12th, 50% for 85%+. Also category-based scholarships. Need application form?"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is the college located?", "Address", "How to reach?", "Campus location", "City"],
+      "responses": ["We're located in [Your City]. Nearest railway station: 5km, Airport: 20km. Bus facility available from major points. Need Google Maps link?"]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact you?", "Phone number", "Email", "Admission office contact", "Counselor number"],
+      "responses": ["Call us: +91-XXXXX-XXXXX (9AM-5PM) | Email: admissions@college.edu | WhatsApp: +91-XXXXX-XXXXX"]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["I'm not sure I understand. Could you rephrase that?", "I didn't get that. Try asking about admissions, fees, courses, or placements.", "Let me connect you with a counselor. Call: +91-XXXXX-XXXXX"]
+    }
+  ]
+}
